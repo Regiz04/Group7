@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+} 
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+   padding: 0;
+   margin: 0;
+}
+
+.banner {
+  background-color: #C6DeF1;
+  color: Black;
+  padding: 15px 300px;
+}
+
+body {
+ width: 960px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #C6DeF1;
+ font-family: Playfair Display;
+ font-size: 15px;
+}
+
+nav {
+  background-color: #faedcb;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+li a {
+	color: Black;
+} 
+
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+} 
+
+section {
+  background-color: #f2c6de;
+  margin-top: 10px;
+  padding: 5px;
+  color: black
+}
+
+article {
+  background-color: #f7d9c4;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+main {
+  width: 640px;
+  float: left;
+  margin-bottom: 10px;
+ }  
+
+body {
+    background-image: url("../Group 07/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+}
+aside {
+  background-color: #c9e4de;
+  width: 270px;
+  float: right;
+  padding: 20px;
+  margin-top: 10px;
+  
+}
+  
+footer {
+  clear: both;
+  background-color: #dbcdf0;
+  color: white;
+  padding: 5px 20px;
